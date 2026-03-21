@@ -1,0 +1,7 @@
+aid: publix-super-markets
+url: https://raw.githubusercontent.com/api-evangelist/publix-super-markets/refs/heads/main/apis.yml
+modified: '2026-03-21'
+apis: []
+common:
+  - type: Website
+    url: https://www.publix-super-markets.com
