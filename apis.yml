@@ -21,6 +21,8 @@ modified: '2026-04-28'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/publix-super-markets-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/publix
   - type: LinkedIn
