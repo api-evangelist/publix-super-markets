@@ -1,7 +1,9 @@
 ---
 title: Publix case | Marketing homework help
 url: https://www.sweetstudy.com/files/publix.doc
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Publix Super Markets" press release artificial intelligence'
 position: 3
 source: serpapi-google

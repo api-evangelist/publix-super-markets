@@ -1,7 +1,9 @@
 ---
 title: What Can Other Grocery Retailers Learn From Publix's ...
 url: https://retailwire.com/discussion/publix-success/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Publix Super Markets" press release artificial intelligence'
 position: 1
 source: serpapi-google

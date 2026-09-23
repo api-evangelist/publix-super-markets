@@ -1,7 +1,9 @@
 ---
 title: Instacart to enable 15-minute Publix grocery delivery, ...
 url: https://www.theledger.com/story/business/2022/03/25/publix-instacart-online-shopping-2-markets-15-minute-fast-grocery-delivery/7150973001/
-date: '2026-05-25'
+published: '2022-03-25'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Publix Super Markets" press release artificial intelligence'
 position: 4
 source: serpapi-google

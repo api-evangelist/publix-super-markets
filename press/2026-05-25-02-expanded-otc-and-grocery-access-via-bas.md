@@ -1,7 +1,9 @@
 ---
 title: Expanded OTC and Grocery Access via BAS
 url: https://nationsbenefits.com/press-releases/nationsbenefits-publix-point-of-sale-integration
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Publix Super Markets" press release artificial intelligence'
 position: 2
 source: serpapi-google
