@@ -1,0 +1,62 @@
+edges:
+- partner_name: SQFI (Safe Quality Food Institute) certified sites
+  partner: null
+  partner_match: register-name
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://sqfi.compliancemetrix.com/rql/g/Public_Directory
+  category: GFSI-recognised food safety certification (SQF)
+  contract_reference:
+    register: SQFI certified site directory (sqfi.compliancemetrix.com Public_Directory)
+    standard: SQF Code (Safe Quality Food Institute; GFSI-recognised)
+    spec_file: null
+    role: sqf-certified-site-operator
+    registered_names:
+    - Publix
+    matched_domain: null
+    matched_by: register-name
+    register_name_note: register-name 'publixsupermarkets' = publix-super-markets; wikidata P856 publix.com agrees
+      or unheld
+    certified_products:
+    - product: SQF Food Safety (SQF Code)
+      product_type: SQF Food Safety
+      lapsed: false
+      editions:
+      - SQF Food Safety Audit Edition 9
+    - product: SQF Quality (SQF Code)
+      product_type: SQF Quality
+      lapsed: false
+      editions:
+      - SQF Quality Audit Edition 9
+    signal_note: certified_products = one entry per SQF audit PROGRAMME (food safety, quality, fundamentals, feed
+      ...), never per site or certificate; lapsed when no site holds the programme Active; site names are context,
+      never counted. Read by a per-name search of the public directory.
+    detected_by: sweep-food-safety-gfsi-certification.py
+    detected: '2026-10-21'
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  detected_by: sweep-food-safety-gfsi-certification.py
+  first_seen: '2026-10-21'
+generated: '2026-10-21'
+method: searched
+source:
+- https://www.sqfi.com/directories/certified-site-directory
+- https://sqfi.compliancemetrix.com/rql/g/Public_Directory
+- https://www.fssc.com/public-register/
+- https://mygfsi.com/who-we-are/governance2/
+- https://mygfsi.com/how-to-implement/recognition/certification-programme-owners
+- https://directory.brcgs.com/
+- https://www.ifs-certification.com/en/database
+- https://www.sqfi.com/certified-sites
+checked:
+- https://directory.brcgs.com/
+- https://mygfsi.com/how-to-implement/recognition/certification-programme-owners
+- https://mygfsi.com/who-we-are/governance2/
+- https://sqfi.compliancemetrix.com/rql/g/Public_Directory
+- https://www.fssc.com/public-register/
+- https://www.ifs-certification.com/en/database
+- https://www.sqfi.com/certified-sites
+- https://www.sqfi.com/directories/certified-site-directory
