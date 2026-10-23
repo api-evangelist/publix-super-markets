@@ -93,3 +93,49 @@
     identity_source: wikidata P856 + P159 (HQ state; labelled provenance step; Kin 2026-10-15 decision 1)
   status: not-a-workflow
   arazzo: null
+- slug: publix-super-markets-open-food-facts
+  label: Open Food Facts
+  partner: open-food-facts
+  partner_name: Open Food Facts
+  category: open food product database (brand owner listing)
+  type: register
+  channel: standard-directory
+  evidence: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Open Food Facts product database, bulk CSV export (brand_owner field)
+    standard: Open Food Facts product database (ODbL open data)
+    spec_file: null
+    role: brand-owner-listed
+    registered_names:
+    - Publix Super Markets, Inc.
+    brands:
+    - publix
+    - xx:publix
+    - publix-super-markets-inc
+    - xx:Publix
+    - xx:publix-super-markets-inc
+    - xx:greenwise
+    - xx:Publix Super Markets  Inc.
+    - publix-bakery
+    register_countries:
+    - united-states
+    - world
+    - france
+    - spain
+    last_product_update: '2026-10-21'
+    matched_domain: null
+    matched_by: register-name
+    register_name_note: register-name 'publixsupermarkets' = publix-super-markets; wikidata P856 publix.com agrees
+      or unheld
+    signal_note: 'participation only: the company''s products are listed in Open Food Facts under its brand_owner
+      name (largely producer / GS1 data-pool imports). Listing is not certification; product counts are context,
+      never counted.'
+    detected_by: sweep-open-food-facts-brands.py
+    detected: '2026-10-23'
+    identity_source: register-name
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  status: not-a-workflow
+  arazzo: null
